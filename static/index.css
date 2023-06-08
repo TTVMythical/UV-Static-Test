@@ -23,14 +23,11 @@ body {
   margin-top: 5px;
   border-radius: 50px;
   color: #fff;
-  transition: border-radius 0.1s;
-}
-
-.form__input::placeholder {
-  color: #aaa;
+  transition: 0.5s;
 }
 
 .form__input:focus {
   border: 1px solid rgba(253, 253, 253, 0.514);
   border-radius: 6px;
+  transition: 0.5s;
 }
