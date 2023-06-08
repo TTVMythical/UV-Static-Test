@@ -23,7 +23,7 @@ body {
   margin-top: 5px;
   border-radius: 50px;
   color: #fff;
-  transition: 0.3s;
+  transition: border-radius 0.1s;
 }
 
 .form__input::placeholder {
