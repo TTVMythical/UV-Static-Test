@@ -12,7 +12,8 @@ body {
 }
 
 .form__input {
-  height: 10px;
+  margin: auto;
+  padding: 10px;
   border: 2px solid #A6A6A6;
   border-radius: 5px;
   font-size: 16px;
