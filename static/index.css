@@ -11,13 +11,6 @@ body {
   text-align: center;
 }
 
-#content h1 {
-  font-size: 24px;
-  cursor:pointer;
-  text-transform: uppercase;
-  font-family: 'Open Sans', sans-serif;
-}
-
 #searchbar {
   text-align: center;
 }
