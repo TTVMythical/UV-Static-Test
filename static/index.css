@@ -46,7 +46,6 @@ body {
 
 #searchbar {
   text-align: center;
-  margin: 20px auto;
 }
 
 .form__input {
@@ -58,7 +57,7 @@ body {
   background-color: transparent;
   text-align: center;
   color: #fff;
-  transition: 0.5;
+  transition: 0.5s;
 }
 
 a{
