@@ -1,7 +1,6 @@
 /* Custom CSS for black theme */
 body {
-  background-color: #000;
-  color: #fff;
+  background: #111;
 }
 
 .container {
@@ -12,15 +11,17 @@ body {
 }
 
 .form__input {
-  margin: auto;
+  background: none;
+  font-family: inherit;
   padding: 10px;
-  border: 2px solid #A6A6A6;
-  border-radius: 5px;
-  font-size: 16px;
-  width: 300px;
-  background-color: transparent;
+  border: 1px solid rgb(255, 255, 255, 0.2);
+  border-radius: 3px;
+  outline: none;
+  width: 350px;
+  margin-top: 5px;
+  border-radius: 50px;
   color: #fff;
-  transition: 0.3s;
+  transition: 0.5s;
 }
 
 .form__input::placeholder {
@@ -28,6 +29,6 @@ body {
 }
 
 .form__input:focus {
-  border: 2px solid #FFFFFF;
-  border-radius: 10px;
+  border: 1px solid rgba(253, 253, 253, 0.514);
+  border-radius: 6px;
 }
